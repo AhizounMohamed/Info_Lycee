@@ -9,7 +9,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 nav ul {
@@ -31,6 +31,8 @@ nav a {
 
 section {
     padding: 20px;
+	width: 70%;
+	
 }
 
 footer {
@@ -38,7 +40,40 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
+	margin-top:20px;
+
+	
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+        }
+
+.gallery img {
+	width: 50%; /* Ajustez la largeur selon vos besoins */
+	margin-bottom: 20px;
+}
+figure {
+	display: inline-block; /* Permet à plusieurs figures d'être côte à côte */
+	text-align: center; /* Aligne le texte à gauche à l'intérieur de la figure */
+	margin: 20px auto; /* Ajoute une marge automatique à gauche et à droite pour centrer horizontalement */
+ }
+ 
+p {
+  font-size: 20px; /* taille du texte en pixels */
+}
+img{
+	width: 40%; 
+}
+main {
+  background-color: #f0f0f0; /* Couleur de fond */
+  padding: 20px; /* Ajouter de l'espacement interne */
+  margin: 150px; /* Ajouter de la marge extérieure */
+  font-family: 'Arial', sans-serif; /* Police de caractères */
+  color: #333; /* Couleur du texte */
+  border: 1px solid #ccc; /* Bordure */
 }
