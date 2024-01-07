@@ -8,7 +8,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 40px;
     text-align: left;
 }
 
@@ -71,9 +71,11 @@ img{
 }
 main {
   background-color: #f0f0f0; /* Couleur de fond */
-  padding: 20px; /* Ajouter de l'espacement interne */
+  padding: 10px; /* Ajouter de l'espacement interne */
   margin: 150px; /* Ajouter de la marge extérieure */
   font-family: 'Arial', sans-serif; /* Police de caractères */
   color: #333; /* Couleur du texte */
   border: 1px solid #ccc; /* Bordure */
+  box-sizing: border-box;
+  
 }

@@ -1,0 +1,95 @@
+/* Reset CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: left;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styles pour les sections */
+section {
+    padding: 20px;
+    width: 70%;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Styles pour la galerie d'images */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Styles pour les liens dans la galerie */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Styles pour les images dans la galerie */
+figure img {
+    max-width: 100%; /* La largeur maximale de l'image est de 100% de la largeur du conteneur */
+    height: auto;    /* La hauteur est automatiquement ajustée pour conserver les proportions originales */
+    text-align: center;
+}
+
+/* Styles pour la zone principale */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	
+}
